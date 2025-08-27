@@ -4,6 +4,6 @@ const router = express.Router();
 const showWeather = require('../controllers/siteController');
 
 
-router.get('/:city', showWeather)
+router.get('/weather', showWeather)
 
 module.exports = router;
